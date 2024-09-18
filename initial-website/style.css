@@ -15,12 +15,12 @@ body{
 
 /* Sidebar class fomatting */
 .sidebar {
-    width: 150px;
+    width: 100px;
     background-color: #566957;
-    height: 100vh;                       /* Full height of the viewport */
+    height: 100vh;
     position: fixed;
     top: 0;
-    box-sizing: border-box;
+    object-fit: cover;
 }
 
 /* Left side bar starting at the left */
@@ -33,49 +33,26 @@ body{
     right: 0;
 }
 
-/* Link list style format */
-.sidebar ul {
+/* Navigation Bar List */
+.navbar ul{
     list-style-type: none;
-    padding: 0;
-}
-
-/* List item format */
-.sidebar ul li {
-    margin: 20px 0;
-}
-
-/* List item link formatting */
-.sidebar ul li a {
-    color: rgb(231, 233, 230);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2em;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-/* Tab underneath the links */
-.sidebar ul li a:after {
-    content: '';
-    display: block;
-    width: 150px;
-    height: 100%;
     background-color: #1d351d;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+    padding: 0px;
+    margin: 0px;
 }
 
-/* When the user hovers over the link */
-.sidebar ul li a:hover {
-    text-decoration: none;
-}
-
-/* Keep the color of the links the same */
-.sidebar ul li a:visited, .sidebar ul li a:active {
+/* Navigation Bar Links */
+.navbar a{
     color: rgb(231, 233, 230);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Hover change color  */
+.navbar a:hover{
+    background-color: #566957;
 }
 
 /* Main content of each page */
