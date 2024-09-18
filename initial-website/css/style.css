@@ -46,16 +46,23 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid;
+    border-bottom-color: rgb(59, 92, 62);
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 /* Navigation Bar Links */
 .navbar a{
     color: rgb(231, 233, 230);
     text-decoration: none;
-    padding: 15px;
+    padding: 0px;
     display: block;
     text-align: center;
     align-content: center;
+    height: 30px;
 }
 
 /* Hover change color  */
@@ -78,6 +85,7 @@ body{
     border-bottom: none;
     border-left: none;
     border-right: none;
+    height: 30px;
 }
 
 /* Page header format */
@@ -124,6 +132,8 @@ h1{
     border: 1px solid rgb(231, 233, 230);
     border-radius: 10px;
     background-color: #1d351d;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Team info format */
