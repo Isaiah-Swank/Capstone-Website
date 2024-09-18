@@ -73,9 +73,9 @@ body{
 
 .navbar li{
     border: solid;
-    border-bottom-color: rgb(59, 92, 62);
-    border-bottom-width: 1px;
-    border-top: none;
+    border-top-color: rgb(59, 92, 62);
+    border-top-width: 1px;
+    border-bottom: none;
     border-left: none;
     border-right: none;
 }
