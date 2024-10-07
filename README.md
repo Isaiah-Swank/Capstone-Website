@@ -1,2 +1,2 @@
 # MealsMyWay
-Capstone web/mobile meal prepping application
+The Meal Prep Management WebApp simplifies meal planning by allowing users to manage recipes, create customizable meal calendars, and generate shopping lists based on their ingredients. It includes a pantry management system to reduce food waste and suggests recipes accordingly. Users can share recipes, calendars, and lists with friends and family, fostering a social experience. The app aims to enhance efficiency and promote healthy eating, with a future goal of AI integration for personalized meal recommendations. Available on web and mobile, it streamlines the entire meal prep process.
