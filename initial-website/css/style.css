@@ -159,3 +159,16 @@ h1{
     font-weight: bold;
     color: rgb(231, 233, 230);
 }
+
+.viewDocument{
+    color: white;
+}
+
+.pdf-container{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    justify-content: center;
+    gap: 2rem;
+    
+}
