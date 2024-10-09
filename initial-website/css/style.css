@@ -160,6 +160,13 @@ h1{
     color: rgb(231, 233, 230);
 }
 
+.team-member-info{
+    border: 1px solid rgb(231, 233, 230);
+    border-radius: 10px;
+    background-color: rgb(59, 92, 62);
+    padding: 10px;
+}
+
 .viewDocument{
     color: white;
 }
