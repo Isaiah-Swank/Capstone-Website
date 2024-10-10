@@ -1,45 +1,54 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Documents</title>
-    </head>
-    <body>
-        <div class="sidebar left"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meals My Way</title>
+</head>
+<body>
 
-        <div class="sidebar right"></div>
+    <!-- Navigation -->
+    <header>
+        <a href="index.html" class="logo-section">
+            <img src="images/Meals-My-Way-Logo.png" alt="MealsMyWay Logo" class="logo">
+            <h1>MealsMyWay</h1>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="project-description.html">Project Description</a></li>
+                <li><a href="meet-the-team.html">Meet the Team</a></li>
+                <li><a href="meet-the-sponsor.html">Meet the Sponsor</a></li>
+                <li><a href="project-schedule.html">Project Schedule</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Documents</h1>
+        <div class="pdf-container">
+            <!-- First PDF: Team Inventory -->
+            <div class="pdf-item">
+                <h2>Team Inventory</h2>
+                <iframe src="assets/Team_Inventory.pdf" class="pdf-view" type="application/pdf"></iframe>
+                <p><a class="viewDocument" href="assets/Team_Inventory.pdf" download>Download PDF</a></p>
+            </div>
 
-        <div class="main-content">
-            <h1>Documents</h1>
-            <div class="pdf-container">
-                <!-- First PDF: Team Inventory -->
-                <div class="pdf-item">
-                    <h2>Team Inventory</h2>
-                    <iframe src="assets/Team_Inventory.pdf" class="pdf-view" type="application/pdf"></iframe>
-                    <p><a class="viewDocument" href="assets/Team_Inventory.pdf" download>View Here</a></p>
-                </div>
-    
-                <!-- Second PDF: Team Standards Document -->
-                <div class="pdf-item">
-                    <h2>Team Standards Document</h2>
-                    <iframe src="assets/Team_Standards_Document.pdf" class="pdf-view" type="application/pdf"></iframe>
-                    <p><a class="viewDocument" href="assets/Team_Standards_Document.pdf" download>View Here</a></p>
-                </div>
+            <!-- Second PDF: Team Standards Document -->
+            <div class="pdf-item">
+                <h2>Team Standards Document</h2>
+                <iframe src="assets/Team_Standards_Document.pdf" class="pdf-view" type="application/pdf"></iframe>
+                <p><a class="viewDocument" href="assets/Team_Standards_Document.pdf" download>Download PDF</a></p>
             </div>
         </div>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home Page</a></li>
-                    <li><a href="project-description.html">Project Description</a></li>
-                    <li><a href="meet-the-team.html">Meet the Team</a></li>
-                    <li><a href="meet-the-sponsor.html">Meet the Sponsor</a></li>
-                    <li><a href="project-schedule.html">Project Schedule</a></li>
-                    <li><a href="documents.html">Documents</a></li>
-                </ul>
-            </nav>
-        </div>
-    </body>
-    </html>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 MealsMyWay | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
