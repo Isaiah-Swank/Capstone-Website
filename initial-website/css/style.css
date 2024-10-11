@@ -73,7 +73,7 @@ header {
     align-items: center;
     padding: 70px 100px;
     background-color: #000;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('background-image-url.jpg'); /* Optional: Add background image */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('background-image-url.jpg'); 
     background-size: cover;
 }
 
@@ -94,11 +94,11 @@ header {
 }
 
 .hero-image {
-    margin-left: 40px; /* Add space between the text and image */
+    margin-left: 40px; 
 }
 
 .hero-image img {
-    width: 200px; /* Adjust image size */
+    width: 200px; 
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -152,10 +152,10 @@ p {
 .container {
     display: flex;
     justify-content: space-between;
-    gap: 40px; /* Space between the cards */
+    gap: 40px; 
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .info-card {
@@ -296,7 +296,7 @@ p {
 
 .team-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust min-width for team cards */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -365,17 +365,17 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero {
-        flex-direction: column; /* Stack text and image on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
 
     .hero-image {
         margin-left: 0;
-        margin-top: 20px; /* Add space above the image when stacked */
+        margin-top: 20px; 
     }
 
     .container {
-        flex-direction: column; /* Stack cards vertically on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
 
@@ -384,16 +384,16 @@ footer {
         margin-bottom: 20px;
     }
         .team-container {
-        grid-template-columns: 1fr; /* Stack team members vertically on smaller screens */
+        grid-template-columns: 1fr; 
         gap: 20px;
     }
 
     .team-member img {
-        width: 80px; /* Scale down images for smaller screens */
+        width: 80px; 
         height: 80px;
     }
 
     .team-member p {
-        font-size: 12px; /* Reduce text size on smaller screens */
+        font-size: 12px; 
     }
 }
