@@ -108,7 +108,7 @@ header {
 /* Main Content Section - Project Description */
 .description-section {
     padding: 60px 50px;
-    background-color: #1a1a1a;
+    background-color: #000;
 }
 
 .container, h1 {
@@ -146,7 +146,7 @@ p {
     display: flex;
     justify-content: center;
     padding: 60px 40px;
-    background-color: #1a1a1a;
+    background-color: #000;
 }
 
 .container {
@@ -199,7 +199,7 @@ p {
 /* Documents Page */
 .main-content {
     padding: 60px 40px;
-    background-color: #1a1a1a;
+    background-color: #000;
     text-align: center;
 }
 
@@ -392,6 +392,12 @@ footer {
         width: 80px; 
         height: 80px;
     }
+
+    .team-member p {
+        font-size: 12px; 
+    }
+}
+
 
     .team-member p {
         font-size: 12px; 
