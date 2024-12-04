@@ -111,7 +111,6 @@ header {
     align-items: center;
     color: #2E8B57;
     font-size: 36px;
-    margin-bottom: 40px;
     font-weight: bold;
 }
 
@@ -255,33 +254,38 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 90%;
+    margin: 0 auto; 
+    gap: 25px;
+}
+
+.sponsor-image {
+    width: 30%; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .sponsor h2 {
     color: #2E8B57;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sponsor p {
     color: #ddd;
     font-size: 16px;
     line-height: 1.6;
-}
-
-.sponsor-image {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    text-align: left;
 }
 
 .team-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 40px;
 }
 
 .team-container {
@@ -386,47 +390,6 @@ p {
         font-size: 12px; 
     }
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: #fff;
-    line-height: 1.8;
-}
-
-.description-section {
-    padding: 60px 50px;
-    background: #000;
-    text-align: center;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 36px;
-    color: #2E8B57;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.content {
-    background-color: #222;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-h3 {
-    color: #2E8B57;
-    font-size: 28px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #2E8B57;
-    padding-bottom: 5px;
-}
 
 p {
     color: #ccc;
@@ -480,6 +443,26 @@ p {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
+
+.image-wrapper {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 650px; 
+    height: 490px; 
+    background-color: #1a1a1a; 
+    border-radius: 25px; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.image-wrapper img {
+    max-width: 90%; 
+    max-height: 90%; 
+    border-radius: 15px; 
+    object-fit: contain; 
+}
+
 footer {
     background: linear-gradient(90deg, #000, #1a1a1a);
     padding: 20px;
@@ -488,6 +471,4 @@ footer {
     font-size: 14px;
     border-top: 2px solid #2E8B57;
 }
-
-
 
