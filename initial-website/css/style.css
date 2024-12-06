@@ -463,6 +463,17 @@ p {
     object-fit: contain; 
 }
 
+.video-view {
+    width: 100%; /* Make the video take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Match the height of the PDF preview */
+    object-fit: cover; /* Scale the video to fill the container while maintaining aspect ratio */
+    border: 1px solid #ccc; /* Optional: Add a border to match the PDF items */
+    border-radius: 5px; /* Optional: Add rounded corners like the PDF previews */
+    margin: auto;
+    display: block; /* Center the video within the container */
+}
+
 footer {
     background: linear-gradient(90deg, #000, #1a1a1a);
     padding: 20px;
