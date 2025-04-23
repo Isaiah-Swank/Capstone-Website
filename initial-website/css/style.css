@@ -99,10 +99,57 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 .description-section {
-    padding: 60px 50px;
-    background-color: #000;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.description-section .container {
+    width: 100%;
+    max-width: 900px;         /* Keeps it centered and not too wide */
+    padding: 0 24px;          /* Some space on the sides */
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.description-section .content {
+    width: 100%;
+    min-height: 250px;        /* Make all the boxes the same min height */
+    background: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1000px) {
+    .description-section .container {
+        max-width: 98vw;
+        padding: 0 8px;
+    }
+    .description-section .content {
+        padding: 18px;
+        min-height: 180px;
+    }
+}
+@media (max-width: 600px) {
+    .description-section .content {
+        padding: 8px;
+        min-height: 120px;
+    }
+}
+
+.description-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .container, h1 {
@@ -125,6 +172,10 @@ h3 {
     color: #2E8B57;
     font-size: 24px;
     margin-bottom: 20px;
+    text-align:center;
+}
+b{
+    color: #2E8B57;
 }
 
 p {
@@ -438,7 +489,7 @@ p {
 }
 
 .carousel-item img {
-    width: 150px;
+    width: 600px;
     height: auto;
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
